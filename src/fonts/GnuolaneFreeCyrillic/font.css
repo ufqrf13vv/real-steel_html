@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'GnuolaneFreeCyrillic';
+  src: url('GnuolaneFreeCyrillic.woff') format('woff'),
+       url('GnuolaneFreeCyrillic.ttf') format('truetype'),
+       url('GnuolaneFreeCyrillic.svg#GnuolaneFreeCyrillic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gnuolane free cyrillic';
+  src: url('gnuolane free cyrillic.eot');
+  src: url('gnuolane free cyrillic.woff2') format('woff2'),
+       url('gnuolane free cyrillic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

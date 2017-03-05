@@ -1,0 +1,25 @@
+.footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #efefef;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+
+		padding-left: 80px;
+		padding-right: 80px;
+
+		@media @extrasmall {
+			padding: 0;
+			flex-direction: column;
+		}
+	}
+
+	&__copyright {
+
+		@media @extrasmall {
+			margin-bottom: 15px;
+		}
+	}
+}

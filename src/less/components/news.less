@@ -1,0 +1,50 @@
+.news {
+	font-family: @farial;
+
+	@media @medium {
+		padding: 0;
+	}
+
+	@media @small {
+		padding: 0 5px;
+	}
+
+	@media @extrasmall {
+		padding: 0 5px;
+	}
+
+	&__title {
+		font-family: @fregular;
+		font-size: 28px;
+		text-transform: uppercase;
+		color: @yellow;
+		margin-bottom: 25px;
+
+		@media @extrasmall {
+			font-size: 22px;
+			margin-bottom: 15px;
+		}
+	}
+
+	&__item {
+		margin-bottom: 25px;
+		font-size: 11px;
+
+		&-date {
+			font-style: italic;
+			color: @yellow;
+			margin-bottom: 5px;
+		}
+
+		&-text {
+			font-size: 12px;
+			line-height: 18px;
+			color: #fff;
+		}
+	}
+
+	&__link {
+		font-style: italic;
+		color: #fff;
+	}
+}

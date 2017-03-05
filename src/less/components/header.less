@@ -1,0 +1,49 @@
+.header {
+	display: flex;
+	width: 100%;
+	
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+.logo {
+	font-family: @fregular;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: #f5a100;
+
+	@media @large {
+		width: 28%;
+	}
+
+	@media @medium {
+		width: 25%;
+	}
+
+	@media @small {
+		width: 25%;
+		line-height: 43px;
+	}
+
+	@media @extrasmall {
+		width: 35%;
+		line-height: 32px;
+	}
+
+	&__uptext {
+		font-size: 36px;
+
+		@media @extrasmall {
+			font-size: 22px;
+		}
+	}
+
+	&__downtext {
+		font-size: 48px;
+
+		@media @extrasmall {
+			font-size: 35px;
+		}
+	}
+}

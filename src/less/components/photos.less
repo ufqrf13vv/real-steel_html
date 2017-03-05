@@ -1,0 +1,32 @@
+.photos {
+	display: flex;
+	margin-bottom: 40px;
+
+	@media @large {
+		margin-left: -0px;
+	}
+
+	@media @medium {
+		margin-left: -240px;
+	}
+
+	@media @small {
+		margin-left: -163px;
+	}
+
+	@media @extrasmall {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 0;
+	}
+
+	&__item {
+		width: 160px;
+		height: 120px;
+		background-size: cover;
+
+		@media @extrasmall {
+			margin-bottom: 10px;
+		}
+	}
+}

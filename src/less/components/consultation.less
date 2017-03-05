@@ -1,0 +1,28 @@
+.consultation {
+	font-family: @fregular;
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 195px;
+
+	@media @extrasmall {
+		margin-bottom: 20px;
+	}
+
+	&__title {
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+
+	&__phone {
+		font-size: 28px;
+		line-height: 36px;
+
+		@media @extrasmall {
+			font-size: 30px;
+		}
+
+		& > span {
+			color: @yellow;
+		}
+	}
+}
